@@ -13,6 +13,7 @@ public class FinViernes {
         String respuesta = numeroRecibido(numero);
         System.out.println(respuesta);
             
+        scan.close();
     }
 
     public static String numeroRecibido(int numero) {
